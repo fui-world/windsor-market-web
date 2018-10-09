@@ -15,7 +15,7 @@ import {
 
 import {A11yModule} from '@angular/cdk/a11y';
 
-// import { FlexLayoutModule } from '@angular/flex-layout';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -24,7 +24,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   imports: [
     CommonModule,
-    // FlexLayoutModule, /* Flex layout here too */
+    FlexLayoutModule, /* Flex layout here too */
     FormsModule, /* forms */
     ReactiveFormsModule, /* forms */
     A11yModule, /* focus monitor */
@@ -51,7 +51,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatSlideToggleModule
   ],
   exports: [
-    // FlexLayoutModule, /* Flex layout here too */
+    FlexLayoutModule, /* Flex layout here too */
     FormsModule, /* forms */
     ReactiveFormsModule, /* forms */
     A11yModule, /* focus monitor */
