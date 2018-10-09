@@ -1,22 +1,31 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
+import { LayoutModule } from './layout/layout.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { LoginComponent } from './layout/auth/login/login.component';
-import { RegisterComponent } from './layout/auth/register/register.component';
-
+import { RouterModule } from '@angular/router';
+// import {MatInputModule} from '@angular/material';
+import {
+  MatButtonModule,
+  MatCheckboxModule
+} from '@angular/material';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LoginComponent,
-    RegisterComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    BrowserAnimationsModule,
+    HttpClientModule,
+    RouterModule,
+    LayoutModule,
+    AppRoutingModule,
+    MatButtonModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
