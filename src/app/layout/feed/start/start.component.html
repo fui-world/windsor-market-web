@@ -1,4 +1,42 @@
-<div class="header-cnt">
+<div class="feed-head">
+  <mat-toolbar>
+    <label class="menu-fit">
+      <i class="material-icons">menu</i>
+      <span>We Update You</span>
+    </label>
+    <span class="spacer"></span>
+    <label class="menu-right">
+      <i class="material-icons">search</i>
+      <!--<span class="search-autofill">
+       
+         <form class="example-form">
+          <mat-form-field class="example-full-width">
+            <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl"
+              [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+              <mat-option *ngFor="let option of options" [value]="option">
+                {{option}}
+              </mat-option>
+            </mat-autocomplete>
+          </mat-form-field>
+        </form>
+      </span> -->
+      <i class="material-icons">settings</i>
+    </label>
+  </mat-toolbar>
+  <div class="feed-content">
+    <div class="feed-inr">
+      <span class="st-feed">
+        <img src="assets/img/start_feed.svg">
+        <label>Tap to build a news feed of your interests.</label>
+      </span>
+
+
+    </div>
+  </div>
+</div>
+
+<!-- <div class="header-cnt">
   <header>
     <div class="h-left">
       <i class="material-icons">menu</i>
@@ -17,4 +55,4 @@
   <div *ngIf="feeds && feeds.length">
     Feeds list
   </div>
-</div>
+</div> -->

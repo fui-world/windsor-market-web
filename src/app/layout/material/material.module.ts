@@ -10,10 +10,10 @@ import {
   MatSnackBarModule, MatTabsModule, MatToolbarModule, MatRadioModule, MatInputModule,
   MatTooltipModule,
   MatSelectModule, MatPaginatorModule, MatProgressSpinnerModule, MatDialogModule,
-  MatStepperModule, MatSlideToggleModule
+  MatStepperModule, MatSlideToggleModule, MatAutocompleteModule
 } from '@angular/material';
 
-import {A11yModule} from '@angular/cdk/a11y';
+import { A11yModule } from '@angular/cdk/a11y';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -49,7 +49,8 @@ import { UICarouselModule } from 'ui-carousel';
     MatProgressSpinnerModule,
     MatStepperModule,
     MatSlideToggleModule,
-    UICarouselModule
+    UICarouselModule,
+    MatAutocompleteModule
   ],
   exports: [
     FlexLayoutModule, /* Flex layout here too */
@@ -78,7 +79,8 @@ import { UICarouselModule } from 'ui-carousel';
     MatDialogModule,
     MatStepperModule,
     MatSlideToggleModule,
-    UICarouselModule
+    UICarouselModule,
+    MatAutocompleteModule
   ],
   declarations: []
 })
