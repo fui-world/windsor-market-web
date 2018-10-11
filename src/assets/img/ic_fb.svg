@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4267b2;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        filter: url(#Mask);
+      }
+    </style>
+    <filter id="Mask" x="-6" y="-4" width="292" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <rect id="Mask-2" data-name="Mask" class="cls-1" width="280" height="48" rx="24"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Rectangle_7" data-name="Rectangle 7" class="cls-2">
+    <rect id="Rectangle_7-2" data-name="Rectangle 7" class="cls-3" width="48" height="48"/>
+    <g id="facebook-letter-logo" transform="translate(21 15)">
+      <path id="Facebook" class="cls-4" d="M1.729,3.486V5.964H0v3.03H1.729V18H5.281V8.995H7.665S7.888,7.542,8,5.953h-2.7V3.881a.856.856,0,0,1,.77-.726H8V0H5.369C1.641,0,1.729,3.033,1.729,3.486Z"/>
+    </g>
+  </g>
+</svg>

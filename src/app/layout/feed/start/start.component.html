@@ -1,0 +1,20 @@
+<div class="header-cnt">
+  <header>
+    <div class="h-left">
+      <i class="material-icons">menu</i>
+      <h3>We Update You</h3>
+    </div>
+    <div class="h-right">
+      <i class="material-icons">search</i>
+      <i class="material-icons">settings</i>
+    </div>
+  </header>
+</div>
+<div class="feed-cnt">
+  <div *ngIf="feeds && !feeds.length">
+    Add Feeds
+  </div>
+  <div *ngIf="feeds && feeds.length">
+    Feeds list
+  </div>
+</div>

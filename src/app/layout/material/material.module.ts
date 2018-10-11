@@ -18,7 +18,7 @@ import {A11yModule} from '@angular/cdk/a11y';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { UICarouselModule } from 'ui-carousel';
 /* A unified module that will simply manage all our Material imports (and export them again) */
 
 @NgModule({
@@ -48,7 +48,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatPaginatorModule,
     MatProgressSpinnerModule,
     MatStepperModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    UICarouselModule
   ],
   exports: [
     FlexLayoutModule, /* Flex layout here too */
@@ -76,7 +77,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatProgressSpinnerModule,
     MatDialogModule,
     MatStepperModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    UICarouselModule
   ],
   declarations: []
 })
