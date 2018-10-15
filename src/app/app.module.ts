@@ -22,7 +22,7 @@ import { UICarouselModule } from 'ui-carousel';
     LayoutModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    UICarouselModule 
+    UICarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
