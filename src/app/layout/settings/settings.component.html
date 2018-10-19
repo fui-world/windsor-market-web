@@ -1,0 +1,34 @@
+<div class="inner">
+  <mat-toolbar>
+    <span class="example-spacer"></span>
+    <mat-icon [routerLink]="['/feed/start']" mat-list-icon>chevron_left</mat-icon>
+    <span>Settings</span>
+  </mat-toolbar>
+
+  <mat-list>
+    <mat-list-item mat-button>
+      <mat-icon mat-list-icon>notifications</mat-icon>
+      <h4 mat-line>Add Keywords & Source</h4>
+    </mat-list-item>
+    <mat-list-item mat-button [routerLink]="['/settings/notification']">
+      <mat-icon mat-list-icon>library_books</mat-icon>
+      <h4 mat-line>Notifications</h4>
+    </mat-list-item>
+    <mat-list-item>
+      <mat-icon mat-list-icon>visibility</mat-icon>
+      <h4 mat-line>View</h4>
+    </mat-list-item>
+    <mat-list-item>
+      <mat-icon mat-list-icon>color_lens</mat-icon>
+      <h4 mat-line>Theme</h4>
+    </mat-list-item>
+    <mat-list-item>
+      <mat-icon mat-list-icon>share</mat-icon>
+      <h4 mat-line>Share</h4>
+    </mat-list-item>
+    <mat-list-item>
+      <mat-icon mat-list-icon>power_settings_new</mat-icon>
+      <h4 mat-line>Log out</h4>
+    </mat-list-item>
+  </mat-list>
+</div>

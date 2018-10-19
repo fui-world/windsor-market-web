@@ -43,6 +43,10 @@
     align-items: center;
     justify-content: center;
 
+    @media (max-width: 767px) {
+      min-height: calc(100vh - 96px);
+    }
+
     span {
       width: 125px;
       height: 126px;

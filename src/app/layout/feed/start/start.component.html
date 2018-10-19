@@ -7,7 +7,7 @@
     <span class="spacer"></span>
     <label class="menu-right">
       <span class="search-autofill">
-        <form class="example-form">
+        <!-- <form class="example-form">
           <mat-form-field class="example-full-width">
             <input type="text" placeholder="Search" aria-label="Number" matInput [formControl]="myControl"
               [matAutocomplete]="auto">
@@ -19,10 +19,10 @@
               </mat-option>
             </mat-autocomplete>
           </mat-form-field>
-        </form>
+        </form> -->
       </span>
       <i class="material-icons">search</i>
-      <i class="material-icons">settings</i>
+      <i class="material-icons" [routerLink]="['/settings']">settings</i>
     </label>
   </mat-toolbar>
   <div class="feed-content">
@@ -36,24 +36,3 @@
     </div>
   </div>
 </div>
-
-<!-- <div class="header-cnt">
-  <header>
-    <div class="h-left">
-      <i class="material-icons">menu</i>
-      <h3>We Update You</h3>
-    </div>
-    <div class="h-right">
-      <i class="material-icons">search</i>
-      <i class="material-icons">settings</i>
-    </div>
-  </header>
-</div>
-<div class="feed-cnt">
-  <div *ngIf="feeds && !feeds.length">
-    Add Feeds
-  </div>
-  <div *ngIf="feeds && feeds.length">
-    Feeds list
-  </div>
-</div> -->
