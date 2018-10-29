@@ -1,0 +1,206 @@
+@media (max-width:991px) {
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 26px;
+        top: -26px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .mainMenu {
+        text-align: left;
+        position: absolute;
+        background: #fff;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 5;
+        display: none;
+        padding-left: 9px;
+        padding-bottom: 19px;
+    }
+
+    .headerMenu {
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+    .logoWind a {
+        font-size: 14px;
+    }
+
+    .topAddress li span {
+        font-size: 11px;
+
+    }
+
+    .headerTop .topAddress li {
+        padding: 0;
+    }
+
+    .headerTop {
+
+        padding: 9px 0;
+    }
+
+    .logoWind {
+        padding-top: 18px;
+    }
+
+    .mainMenu ul li {
+        padding: 21px 0 22px 0;
+        display: block;
+        padding-bottom: 3px;
+    }
+
+    .mainMenu>ul {
+        display: block;
+    }
+
+    .cartIcon {
+        border-left: 1px solid #f5f5f5;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .headerTop .topAddress li {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .bannerContent h1 {
+        font-size: 16px;
+    }
+
+    .bannerContent h2 {
+        font-size: 22px;
+    }
+
+    .bannerContent p {
+        font-size: 13px;
+        margin: 11px 0 19px 0;
+        line-height: 20px;
+    }
+
+    .customBtn {
+        padding: 8px !important;
+        font-size: 12px;
+        min-width: 76px !important;
+    }
+
+    .shopLocalStore {
+        padding: 60px 0;
+
+    }
+
+    .shopLocalContent h1 {
+        font-size: 23px;
+    }
+
+    .shopLocalContent p {
+        font-size: 14px;
+        margin: 10px 0 15px 0;
+    }
+
+    .companyForm h1 {
+        font-size: 15px;
+        margin-bottom: 0px;
+        line-height: 27px;
+    }
+
+    .companyForm .colorGreen {
+        font-size: 30px;
+    }
+
+    .windStore {
+        font-size: 13px;
+    }
+
+    .searchProduct p {
+        font-size: 18px;
+    }
+
+    .searchProduct input {
+        padding: 7px;
+    }
+
+
+    .discoverWindstore {
+        padding: 40px 0 10px;
+    }
+
+    .discoverWindstore h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .companyOrgContent {
+
+        height: 450px;
+
+    }
+
+    .companyForm {
+
+        padding: 0 50px;
+
+    }
+
+    .searchProduct {
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .companyOrgImg {
+
+        height: 450px;
+
+    }
+
+    .footer {
+        padding: 33px 10px 0px 10px;
+    }
+
+    .footer-content h3 {
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+
+    .footer-link a {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .newsletter input {
+        max-width: 190px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .footer-content p {
+        font-size: 13px;
+    }
+
+    .footer-contact a {
+
+        font-size: 12px;
+
+    }
+
+    .footer-content {
+        margin-bottom: 25px;
+    }
+
+    .newsletter .customBtn {
+        margin-top: 0;
+        padding: 12px 8px !important;
+        margin-top: 0 !important;
+        font-size: 11px;
+    }
+
+}

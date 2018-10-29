@@ -1,0 +1,498 @@
+/*=============Header===============*/
+/*=============Header===============*/
+
+/*----Header-Top-Start------*/
+.headerTop {
+    background: #002b4d;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.headerTop .topAddress li {
+    color: #ccc;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    border-right: 1px solid #07406d;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.headerTop .topAddress li:last-child a span:before {
+    font-size: 20px;
+    position: absolute;
+    top: -3px;
+    left: -25px;
+}
+
+.headerTop .topAddress li:last-child a {
+    margin-left: 25px;
+}
+
+.headerTop .topAddress li:last-child {
+    border: none;
+}
+
+.topAddress li span {
+    color: #85dc1e;
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.topAddress li a {
+    color: #ccc;
+}
+
+.topAddress li a:hover {
+    color: #34bb2d;
+}
+
+/*----Header-Top-End------*/
+
+/*----Header-header-Menu-Start-*/
+.logoWind a {
+    color: #0a3353;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+}
+
+.mainMenu ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #222;
+    font-weight: 600;
+    padding: 0 14px 1px 14px;
+    transition: all 0.5s;
+}
+
+.mainMenu ul li .active,
+.mainMenu ul li a:hover {
+    color: #34bb2d;
+}
+
+.mainMenu>ul {
+    display: inline-block;
+}
+
+/* .headerMenu {
+    padding: 28px 0;
+    box-shadow: 0px 0px 7px 0px #e6e6e6;
+} */
+.cartIcon li a {
+    position: relative;
+}
+
+.cartIcon li a span {
+    font-size: 21px;
+}
+
+.cartIcon li a i {
+    position: absolute;
+    top: -7px;
+    font-style: normal;
+    font-size: 12px;
+    color: #34bb2d;
+    font-weight: 600;
+}
+
+.logoWind {
+    padding-top: 25px;
+}
+
+.cartIcon {
+    border-left: 1px solid #f5f5f5;
+    margin-left: 12px;
+    padding-left: 15px;
+}
+
+.mainMenu ul li {
+    padding: 21px 0 22px 0;
+}
+
+.cartIcon a {
+    position: relative;
+    top: 3px;
+}
+
+.cartIcon span.lnr.lnr-magnifier {
+    font-size: 19px;
+    position: relative;
+    top: 2px;
+}
+
+/*----Header-header-Menu-End------*/
+/*=============Header===============*/
+/*=============Header===============*/
+
+
+
+/*=============Banner===============*/
+/*=============Banner===============*/
+.bannerSection {
+    background-image: url('../images/bannerimg.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bannerContent h1 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 36px;
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-weight: 200;
+}
+
+.bannerContent p {
+    font-size: 18px;
+    color: #fff;
+    margin: 30px 0 41px 0;
+    width: 100%;
+    max-width: 875px;
+    line-height: 27px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.bannerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+}
+
+.overlayBlue {
+    background: rgba(22, 61, 92, 0.82);
+}
+
+.bannerContent h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 66px;
+    letter-spacing: 1px;
+}
+
+/*=============Banner===============*/
+/*=============Banner===============*/
+
+
+
+
+/*=============SHOP LOCAl===============*/
+/*=============SHOP LOCAl===============*/
+.shopLocalContent h1 {
+    font-size: 34px;
+}
+
+.shopLocalContent p {
+    font-size: 18px;
+    color: #313131;
+    width: 100%;
+    max-width: 570px;
+    line-height: 27px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 37px auto 40px auto;
+}
+
+.shopLocalStore {
+    padding: 90px 0;
+    position: relative;
+}
+
+.shopLocalImg img {
+    width: 100%;
+    max-width: 485px;
+}
+
+.shopLocalContent h1 {
+    font-size: 42px;
+}
+
+.shopLocalContent {
+    padding-top: 100px;
+}
+
+/*=============SHOP LOCAl===============*/
+/*=============SHOP LOCAl===============*/
+
+
+
+
+/*=============companyOrganization===============*/
+/*=============companyOrganization===============*/
+.companyOrgImg {
+    background-image: url('../images/companyImg.jpg');
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+}
+
+.companyOrganization .row>div {
+    padding: 0;
+}
+
+.companyOrgContent {
+    background: #002b4d;
+    height: 650px;
+    position: relative;
+    z-index: 9;
+}
+
+.companyOrgContent::after {
+    content: "";
+    background: url(../images/pattern-1-1.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.02;
+    z-index: 0;
+}
+
+.companyForm {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 60px 50px 50px 50px;
+    position: relative;
+    z-index: 9;
+}
+
+.companyForm h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+    line-height: 55px;
+}
+
+.searchProduct p {
+    font-size: 29px;
+    line-height: 34px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.windStore {
+    display: inline-block;
+    color: #e8e8e8;
+    font-size: 21px;
+    padding: 14px 18px;
+    cursor: pointer;
+    border-radius: 7px;
+    /* font-weight: bold; */
+    letter-spacing: 0.6px;
+}
+
+.searchProduct {
+    border-top: 1px solid #063a63;
+    padding-top: 52px;
+    margin-top: 40px;
+}
+
+.searchProduct input {
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    padding: 13px;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    color: #002b4d;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.searchProduct form {
+    position: relative;
+}
+
+.searchProduct button {
+    position: absolute;
+    right: 3px;
+    top: 24px;
+    z-index: 9;
+}
+
+.companyForm .colorGreen {
+    font-size: 47px;
+}
+
+/*=============companyOrganization===============*/
+/*=============companyOrganization===============*/
+
+
+
+/*=============discoverWindstore===============*/
+/*=============di 	scoverWindstore===============*/
+.discoverWindstore {
+    background: url(http://brook.thememove.com/wp-content/uploads/2018/08/home-digital-agency-image-02.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 70px 0;
+}
+
+.discoverWindBox {
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.discoverWindBox a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.discoverWindBox img {
+    border-radius: 7px;
+    height: 100%;
+}
+
+#discoverWindstores .owl-nav .owl-prev {
+    position: absolute;
+    left: -71px;
+    width: 55px;
+    height: 55px;
+    font-size: 17px;
+    line-height: 57px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #efeded;
+    top: 50%;
+    margin-top: -33px;
+    transition: all 0.5s;
+}
+
+#discoverWindstores .owl-nav .owl-next {
+    position: absolute;
+    right: -71px;
+    width: 55px;
+    height: 55px;
+    font-size: 17px;
+    line-height: 57px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #efeded;
+    top: 50%;
+    margin-top: -33px;
+    transition: all 0.5s;
+}
+
+#discoverWindstores .owl-nav>button:hover {
+    background: #002b4d;
+    border-color: #002b4d;
+    color: #fff;
+}
+
+#discoverWindstores .owl-nav.disabled {
+    display: block;
+}
+
+.discoverWindstore h1 {
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.discoverWindBox a img {
+    transition: all 0.3s;
+}
+
+.discoverWindBox:hover img {
+    opacity: 0.8;
+    box-shadow: 0px 6px 24px 0px #cccccc;
+}
+
+.discoverWindBox:hover {
+    transform: translateY(-4px);
+}
+
+/*=============discoverWindstore===============*/
+/*=============discoverWindstore===============*/
+
+/*=============footer===============*/
+/*=============footer===============*/
+
+.footer {
+    padding: 70px 0 40px;
+}
+
+.footer-content h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer-content h3:before {
+    content: "";
+    position: absolute;
+    width: 42px;
+    height: 4px;
+    background: #34bb2d;
+    bottom: -9px;
+    left: 0;
+}
+
+.footer-content p {
+    line-height: 29px;
+    font-size: 16px;
+}
+
+.footer-contact a {
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+}
+
+.footer-contact a span {
+    margin-right: 5px;
+}
+
+.footer-content p {
+    line-height: 29px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-link a {
+    text-transform: capitalize;
+
+    color: #000;
+    margin-bottom: 13px;
+    letter-spacing: 0.4px;
+}
+
+.newsletter .customBtn {
+
+    margin-top: 14px;
+}
+
+.newsletter input {
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    color: #002b4d;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px 0 rgba(166, 166, 166, 0.2);
+}
+
+/*=============footer===============*/
+/*=============footer===============*/
