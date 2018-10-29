@@ -2,13 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {Routes, RouterModule} from '@angular/router';
 import { LoginComponent } from './layout/auth/login/login.component';
-import { StartComponent } from './layout/feed/start/start.component';
-
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/login' , pathMatch: 'full'},
+  { path: '', redirectTo: '/dashboard' , pathMatch: 'full'},
   { path: 'login', component: LoginComponent },
-  { path: 'feed/start', component: StartComponent },
+  { path: 'dashboard', component: LoginComponent },
 
   { path: '**', redirectTo: '/', pathMatch: 'full' },
   
