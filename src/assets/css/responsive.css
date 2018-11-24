@@ -1,0 +1,698 @@
+@media (min-width:992px) {
+  .mainMenu ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #222;
+    font-weight: 600;
+    padding: 0 14px 1px 14px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .mainMenu ul li .active,
+  .mainMenu ul li a:hover {
+    color: #34bb2d;
+  }
+
+  .mainMenu>ul {
+    display: inline-block;
+  }
+}
+
+
+@media (max-width:1199px) {
+  .mainMenu ul li a {
+    padding: 0 7px 1px 7px;
+
+  }
+
+  .logoWind a {
+    font-size: 13px;
+  }
+
+  .logoWind {
+    padding-top: 26px;
+  }
+}
+
+@media (max-width:991px) {
+  .mainNav a {
+    padding: 10px 15px !important;
+  }
+
+  .stickyH .logoWind {
+    padding-top: 0;
+  }
+
+  .stickyH .headerMenu {
+    padding: 15px 0;
+    height: inherit;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 26px;
+    top: -26px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .open {
+    position: fixed;
+    width: 100%;
+  }
+
+  .mainNav {
+    text-align: left;
+    position: fixed;
+    background: #002b4d;
+    z-index: 5;
+    padding-left: 9px;
+    padding-bottom: 19px;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 99;
+    overflow: auto;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  .open .mainNav {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  .open .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7215686274509804);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 300ms all;
+    transition: 300ms all;
+  }
+
+  .open .mobile-toggles {
+    -webkit-box-shadow: 0 0 10px #85dc1e;
+    box-shadow: 0 0 10px #85dc1e;
+    z-index: 9999;
+    background: #85dc1e;
+  }
+
+  .mobile-toggles {
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    border-radius: 10px;
+    width: 40px;
+    padding: 3px;
+    -webkit-box-shadow: 0 0 5px rgba(204, 204, 204, 0.3);
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.3);
+    cursor: pointer;
+    border: 2px solid #85dc1e;
+    z-index: 99;
+  }
+
+  .adressDetail span {
+    display: none;
+  }
+
+  .cartIcon span.lnr.lnr-magnifier {
+    font-size: 17px;
+  }
+
+  .one,
+  .two,
+  .three {
+    background-color: #85dc1e;
+    height: 2px;
+    margin: 4px auto;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    display: table;
+    width: 20px;
+    border-radius: 5px;
+  }
+
+  .open .three {
+    -webkit-transform: rotate(45deg) translate(-4.4px, -3px);
+    transform: rotate(45deg) translate(-4.4px, -3px);
+    width: 21px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .open .two {
+    opacity: 0;
+  }
+
+  .open .one {
+    -webkit-transform: rotate(-45deg) translate(-5px, 4px);
+    transform: rotate(-45deg) translate(-5px, 4px);
+    width: 21.5px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .mainNav li {
+    padding: 0 !important;
+    width: 100%;
+  }
+
+  .mainNav a {
+    display: block;
+    padding: 13px 15px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 13px;
+  }
+
+  .headerMenu {
+    position: relative;
+    padding-bottom: 15px;
+  }
+
+  .logoWind a {
+    font-size: 14px;
+  }
+
+  .topAddress li span {
+    font-size: 14px;
+  }
+
+  .headerTop .topAddress li:last-child a {
+    margin-left: 35px;
+  }
+
+  .headerTop .topAddress li {
+    padding: 0;
+  }
+
+  .headerTop {
+
+    padding: 9px 0;
+  }
+
+  .logoWind {
+    padding-top: 2px;
+  }
+
+  .cartIcon {
+    float: right;
+    margin-right: 60px;
+  }
+
+  .logoWind a {
+    font-size: 14px;
+  }
+
+  .cartIcon li a span {
+    font-size: 17px;
+  }
+
+  .cartIcon {
+    border-left: 1px solid #f5f5f5;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .headerTop .topAddress li {
+    font-size: 10px;
+  }
+
+  .col-right-main {
+    margin-bottom: 50px;
+  }
+
+  .blog-main {
+    padding: 50px 0;
+  }
+
+  .blog-main {
+    padding: 50px 0 20px 0;
+  }
+
+  .contactForm .submitButton {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .contactForm {
+    padding: 70px 98px 70px 70px;
+  }
+
+  .map-full iframe {
+    height: 450px;
+  }
+
+  .headerMenu .col-md-3 {
+    float: left;
+  }
+
+  .mainMenu ul li {
+    padding: 0;
+  }
+
+  .full-listing-left.listingsingleleft {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width:767px) {
+  .headerTop .col-md-8.col-sm-8.col-xs-8 {
+    display: none;
+  }
+
+  .overlay-src {
+    padding: 5px;
+    min-width: 200px;
+  }
+
+  .overlay-src button {
+    right: 8px;
+    top: 8px;
+    height: 30px;
+    width: 35px;
+  }
+
+  .overlay-src input {
+    font-size: 13px;
+  }
+
+  .topAddress li a {
+    color: #fff;
+    font-size: 11px;
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+  }
+
+  .taC {
+    text-align: center;
+  }
+
+  .loginsignincmb .modal-dialog {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .loginsignincmb .modal-header {
+    padding-bottom: 0;
+  }
+
+  .mainform-login .form-group input {
+    font-size: 13px;
+    height: 38px;
+    padding: 8px 15px 7px 35px;
+    line-height: inherit;
+  }
+
+  .form-group.remBox {
+    margin-bottom: 0 !important;
+  }
+
+  .mainform-login .form-group {
+    text-align: center;
+  }
+
+  .form-group.forGBox {
+    text-align: left;
+  }
+
+  .forgotPs {
+    color: #002b4d;
+  }
+
+  .mainform-login .form-group {
+
+    margin-bottom: 15px;
+  }
+
+  .or-line {
+    margin: 5px 0 25px 0;
+  }
+
+  .loginsignincmb .modal-title {
+    font-size: 18px;
+  }
+
+  .loginsignincmb .modal-content {
+    padding: 15px;
+  }
+
+  .mainMenu ul li {
+    margin-left: 0;
+  }
+
+  .headerTop .topAddress li {
+    border: 0;
+  }
+
+  .cartIcon {
+    position: absolute;
+    top: -46px;
+    right: 22px;
+    margin: 0;
+    border: 0;
+  }
+
+  .cartIcon li a {
+    color: #fff;
+    opacity: 0.8;
+  }
+
+  .headerTop .col-md-4.col-sm-4.col-xs-4 {
+    width: 100%;
+  }
+
+  .topAddress {
+    text-align: left;
+    display: inline-block;
+  }
+
+  .bannerContent h1 {
+    font-size: 16px;
+  }
+
+  .bannerContent h2 {
+    font-size: 22px;
+  }
+
+  .bannerContent p {
+    font-size: 13px;
+    margin: 11px 0 19px 0;
+    line-height: 20px;
+  }
+
+  .customBtn {
+    padding: 8px 15px !important;
+    font-size: 12px;
+    min-width: 76px !important;
+  }
+
+  .shopLocalStore {
+    padding: 60px 0;
+
+  }
+
+  .shopLocalContent h1 {
+    font-size: 23px;
+  }
+
+  .shopLocalContent p {
+    font-size: 14px;
+    margin: 10px 0 15px 0;
+  }
+
+  .companyForm h1 {
+    font-size: 15px;
+    margin-bottom: 0px;
+    line-height: 27px;
+  }
+
+  .companyForm .colorGreen {
+    font-size: 30px;
+  }
+
+  .windStore {
+    font-size: 13px;
+  }
+
+  .searchProduct p {
+    font-size: 18px;
+  }
+
+  .searchProduct input {
+    padding: 7px;
+  }
+
+
+  .discoverWindstore {
+    padding: 40px 0 10px;
+  }
+
+  .discoverWindstore h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .companyOrgContent {
+
+    height: 450px;
+
+  }
+
+  .companyForm {
+
+    padding: 0 50px;
+
+  }
+
+  .searchProduct {
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .companyOrgImg {
+
+    height: 450px;
+
+  }
+
+  .footer {
+    padding: 30px 0 0 0;
+  }
+
+  .footer-content h3 {
+    font-size: 15px;
+    margin-bottom: 22px;
+  }
+
+  .footer-link a {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .newsletter input {
+    max-width: 190px;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .footer-content p {
+    font-size: 13px;
+  }
+
+  .footer-contact a {
+
+    font-size: 12px;
+
+  }
+
+  .footer-content {
+    margin-bottom: 25px;
+  }
+
+  .newsletter .customBtn {
+    margin-top: 0;
+    padding: 12px 8px !important;
+    margin-top: 0 !important;
+    font-size: 11px;
+  }
+
+  .authorSec {
+    padding: 30px 20px 30px 20px;
+    border-bottom: 0;
+  }
+
+  .authorSec .row>div {
+    float: none;
+    width: 100%;
+  }
+
+  .authorBox {
+    margin-bottom: 20px;
+  }
+
+  .authorBio {
+    padding-left: 0;
+  }
+
+  .authorBio h4 {
+    padding: 0 0 5px 0;
+  }
+
+  .authorBio p {
+    margin-bottom: 0px;
+  }
+
+  .blogForm {
+    padding: 20px 0;
+  }
+
+  .blog-cnt {
+    padding: 15px;
+
+  }
+
+  .blogInner .textareaHeading label {
+    margin-bottom: 10px;
+  }
+
+  .blogInner .textarea {
+    height: 150px;
+  }
+
+  .blogInner .formInput {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .blogInner .form-control {
+    margin-bottom: 10px;
+  }
+
+  .faqSec .panel-title span {
+    right: 10px;
+    top: 30px;
+  }
+
+  .faqSec .panel-title a {
+    font-size: 14px;
+    padding: 8px 14px;
+    line-height: 20px;
+  }
+
+  .faqInner {
+
+    padding: 30px 20px 10px 20px;
+
+  }
+
+  .faqSec .panel-body p {
+
+    font-size: 14px;
+
+  }
+
+  .faqSec .subtitle.text-center {
+    margin-bottom: 20px;
+  }
+
+  .faqSec .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    padding: 10px;
+  }
+
+  .faqSec {
+    padding: 50px 0 30px;
+  }
+
+  .mini-fade {
+    text-align: center;
+  }
+
+  .contactForm {
+    padding: 15px;
+  }
+
+  ul.adressDetail {
+    padding: 0;
+  }
+
+  .contactForm {
+
+    padding: 50px 0 60px 0px;
+  }
+
+  .adressDetail a {
+    font-size: 15px;
+
+  }
+
+  .contactAddress h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .contactForm .mybtnsmain {
+    padding: 14px 24px;
+    font-size: 12px;
+  }
+
+  .contactForm .submitButton {
+    margin-top: 25px;
+  }
+
+  .contactForm .form-control {
+    padding-bottom: 0px;
+    line-height: 10px;
+  }
+
+  .contactForm .formInput {
+    margin-top: 24px;
+  }
+
+  .mini-banner h1 {
+    margin-bottom: 0;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+  }
+
+  .map-full iframe {
+    height: 250px;
+  }
+
+  .contactForm {
+    padding: 20px 0;
+  }
+
+  .footer {
+    background: #f5f5f5;
+  }
+
+  .copyright-footer {
+    border-top: 1px solid rgba(204, 204, 204, 0.4);
+    text-align: center;
+  }
+
+  .copyright-footer .text-right {
+    text-align: center;
+    padding: 10px 0 5px;
+  }
+
+  .copyright-footer a {
+    display: block;
+    color: #34bb2d;
+    line-height: 20px;
+  }
+}

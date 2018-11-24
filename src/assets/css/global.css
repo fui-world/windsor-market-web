@@ -1,0 +1,293 @@
+/*============ All CSS FILE IMPORT ==============*/
+@import url("bootstrap.min.css");
+@import url("style.css");
+@import url("animate.css");
+@import url("linearicon.css");
+@import url("owl.carousel.min.css");
+@import url("fullcalendar.min.css");
+@import url("lightbox.min.css");
+@import url("responsive.css");
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+/*============ All CSS FILE IMPORT ==============*/
+
+* {
+  outline: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: GoogleSans-Regular;
+  src: url('../fonts/GoogleSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: GoogleSans-Bold;
+  src: url('../fonts/GoogleSans-Bold.ttf');
+}
+
+body {
+  font-family: GoogleSans-Regular;
+}
+
+a {
+  color: #002b4d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: GoogleSans-Bold;
+}
+
+ul,
+li,
+p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: GoogleSans-Regular;
+}
+
+a,
+a:hover,
+a:focus {
+  transition: 300ms all;
+}
+
+a {
+  display: inline-block;
+  font-family: GoogleSans-Regular;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.customBtn {
+  font-weight: 600;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 43, 77, 0.2);
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  background-color: #002b4d;
+  backface-visibility: hidden;
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 14px 29px;
+  letter-spacing: 1px;
+  min-width: 130px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.whiteBtn {
+  background: #fff;
+  color: #002b4d;
+}
+
+.file-upload {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+}
+
+.file-upload .file-select {
+  text-align: left;
+  padding: 0;
+  font-size: 14px;
+  border: 1px solid #efeaea;
+  position: relative;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.file-upload .file-select .file-select-button {
+  background: #002b4d;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  right: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.file-upload .file-select .file-select-name {
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.file-upload.active .file-select {
+  border-color: #3fa46a;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+
+.file-upload.active .file-select .file-select-button {
+  background: #3fa46a;
+  color: #FFFFFF;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+
+.file-upload .file-select input[type=file] {
+  z-index: 100;
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.file-upload .file-select.file-select-disabled {
+  opacity: 0.65;
+}
+
+.file-upload .file-select.file-select-disabled:hover {
+  cursor: default;
+  display: block;
+  border: 2px solid #dce4ec;
+  color: #34495e;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 5px;
+  text-align: left;
+  background: #FFFFFF;
+  overflow: hidden;
+  position: relative;
+}
+
+.file-upload .file-select.file-select-disabled:hover .file-select-button {
+  background: #dce4ec;
+  color: #666666;
+  padding: 0 10px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+
+.file-upload .file-select.file-select-disabled:hover .file-select-name {
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.colorGreen {
+  color: #34bb2d;
+}
+
+img,
+label {
+  -webkit-user-select: none;
+  /* Safari 3.1+ */
+  -moz-user-select: none;
+  /* Firefox 2+ */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Standard syntax */
+}
+
+.customBtn:hover {
+  background: #34bb2d;
+  color: #fff;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: #002b4d;
+}
+
+::selection {
+  color: #fff;
+  background: #002b4d;
+}
+
+select.form-control {
+  height: inherit;
+  padding: 9.5px 12px;
+  text-transform: capitalize;
+}
+
+.fc-event {
+  font-size: 14px;
+  line-height: 1.2;
+  border: 1px solid #002b4d;
+  background-color: #002b4d;
+  padding: 1px 7px !important;
+}
+
+a:focus,
+a:hover {
+  color: #002b4d;
+  text-decoration: none;
+}
+
+.fc-view,
+.fc-view>table {
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid #efeaea;
+  background: #fff;
+}
+
+.fc button,
+.fc-state-default {
+  padding: 9px 15px;
+  background: #002b4d;
+  color: #fff;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: 0;
+  height: inherit;
+  font-weight: 600;
+}
+
+.fc-state-active {
+  background: #34bb2d !important;
+}
+
+.fc-center {
+  color: #002b4d;
+}
+
+.fc-unthemed td.fc-today {
+  background: #f3f8fc;
+}

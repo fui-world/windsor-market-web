@@ -2,27 +2,53 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { AuthModule } from './auth/auth.module';
-import { MaterialModule } from './material/material.module';
-import { FeedModule } from './feed/feed.module';
-import { SettingsComponent } from './settings/settings.component';
-import { NotificationComponent } from './settings/notification/notification.component';
+
+import { LayoutComponent } from './layout.component';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { LoginComponent } from './shared/login/login.component';
+import { RegisterComponent } from './shared/register/register.component';
+import { AddBusinessComponent } from './add-business/add-business.component';
+import { ShopComponent } from './shop/shop.component';
+import { BlogComponent } from './blog/blog.component';
+import { EventsComponent } from './events/events.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    AuthModule,
     RouterModule,
-    MaterialModule,
-    FeedModule
   ],
   declarations: [
-    SettingsComponent,
-    NotificationComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    LayoutComponent,
+    LoginComponent,
+    RegisterComponent,
+    AddBusinessComponent,
+    ShopComponent,
+    BlogComponent,
+    EventsComponent,
+    FaqsComponent,
+    ContactComponent
   ],
   exports: [
-    SettingsComponent,
-    NotificationComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    LayoutComponent,
+    LoginComponent,
+    RegisterComponent,
+    AddBusinessComponent,
+    ShopComponent,
+    BlogComponent,
+    EventsComponent,
+    FaqsComponent,
+    ContactComponent
   ]
 })
+
 export class LayoutModule { }
